@@ -1,6 +1,9 @@
 div.page {
 	width: 49.9%;
 	float: left;
+	max-height: 100%;
+	height: 100%;
+	overflow: auto;
 }
 button {
 	padding: 10px;
@@ -9,8 +12,17 @@ button {
 	transition-duration: 1s;
 	background: #222;
 	color: #efefef;
+	cursor: pointer;
+}
+div.c {
+	display: block;
+	text-align: center;
 }
 button:hover {
+	background: #000;
+	color: #efefef;
+}
+.num:hover {
 	background: #000;
 	color: #efefef;
 }
@@ -19,6 +31,24 @@ body {
 }
 p {
 	color: #efefef;
-	font: 40px Monospace;
+	font: 30px Monospace;
 	text-align: center;
+	margin: 2px;
+	padding: 0px;
+}
+textarea {
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	background: #121222;
+}
+.locked {
+	display: none;
+}
+.blah {
+	text-align: justify;
+	font: 20px Monospace;
+}
+.used {
+	display: none;
 }
