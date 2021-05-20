@@ -1,0 +1,24 @@
+div.page {
+	width: 49.9%;
+	float: left;
+}
+button {
+	padding: 10px;
+	margin: 10px;
+	transition-property: background, color, border;
+	transition-duration: 1s;
+	background: #222;
+	color: #efefef;
+}
+button:hover {
+	background: #000;
+	color: #efefef;
+}
+body {
+	background: #121222;
+}
+p {
+	color: #efefef;
+	font: 40px Monospace;
+	text-align: center;
+}
