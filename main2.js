@@ -9,6 +9,7 @@ function button(innerHTML, title, onClick = () => {}, classes = []) {
 	}
 	return j;
 }
+document.title = 'A New Deal';
 function moneyFormat(money) {
 	let r = money % 1;
 	r || (r += '00');
